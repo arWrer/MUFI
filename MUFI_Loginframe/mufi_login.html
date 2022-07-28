@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>MUFI FRAME</title>
+        <link rel="stylesheet" type = "text/css" href=login.css> 
+    </head>
+    <body>
+        <!--왼쪽 프레임  -->
+        <div id="side_left">
+            <div id="side_left_top"><br><a href="https://www.instagram.com/?hl=ko"><img id="headline" src="MUFI.png"></a></div>
+            <div id="side_left_bot">
+                <div id="userdata"><img src="human.png"></div>
+                <br><br><br><hr>
+                <ul>
+                    &nbsp;유저관리<br>
+                    <li class='sidebar'><img class="sidebar_img" src="people.png"><a href="#">내 정보</a></li>
+                    <li class='sidebar'><img class="sidebar_img" src="human.png"><a href="#">고객정보</a></li><br>
+                     &nbsp;결제<br>
+                    <li class='sidebar'><img class="sidebar_img" src="payment.png"><a href="#">결제조회</a></li><br>
+                     &nbsp;상점<br>
+                    <li class='sidebar'><img class="sidebar_img" src="enroll.png"><a href="https://www.naver.com/">기기등록</a></li>
+                    <li class='sidebar'><img class="sidebar_img" src="store.png"><a href="https://www.daum.net/">가게확인</a></li>
+                    <li class='sidebar' id='mainpage'><img class="sidebar_img"  src="home.png"><a href="#">메인페이지</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!--오른쪽 프레임  -->
+        <div id="side_right">
+            <div class="top_font" id="side_right_top">
+                <div id="dropbox"><img src="white_menu_bar.png"></div>
+                <div id="loginbox"></div>
+            </div>
+            <div id="side_right_bot">
+                <div id="first_div">
+                    <div id="second_div">
+                        
+                        <div class="mid_sort" id="logo_div"><img id="headline" style=margin-top:10% src="MUFI.png"></div>
+                        <form action="https://www.naver.com/" method="post">
+                            <div class="mid_sort" id="id_div">
+                                
+                                <input type="text" class="input" placeholder="id" onfocus="this.placeholder='' " onblur="this.placeholder='id' ">
+                            </div>
+                            <div class="mid_sort" id="pw_div">
+                                <input type="password" class="input" placeholder="pw" onfocus="this.placeholder='' " onblur="this.placeholder='pw' ">
+                            </div>
+                            <div class="mid_sort" id="login_div">
+                                <input type="submit" id="loginButton" value="로그인">
+                            </div>
+                        </form>
+                        <div id="left_div">
+                            <form action="https://www.naver.com/" method="post">
+                                <div class="mid_sort" id="find_div">
+                                    <input type="submit" class="workButton" value="아이디/비밀번호 찾기">
+                                </div>
+                            </form>
+                            <form action="https://www.naver.com/" method="post">
+                                <div class="mid_sort" id="signup_div">
+                                    <input type="submit" class="workButton" value="회원가입">
+                                </div>
+                            </form>
+                            
+                        
+                        </div>
+                    </div>                
+                </div>       
+            </div>
+        </div>
+    
+    
+    
+    </body>
+</html>
